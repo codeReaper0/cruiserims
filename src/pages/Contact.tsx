@@ -26,7 +26,7 @@ const Contact = () => {
         image={contactType1}
         title="GENERAL INQUIRIES"
         subtitle="For general questions about our products, services, or any other
-                  information, please email us at info@silverlinerims.com. We aim to 
+                  information, please email us at support@sliverlinerims.us. We aim to 
                   respond promptly and provide you with all the details you need.
                   "
       />
@@ -36,7 +36,7 @@ const Contact = () => {
         title="CUSTOMIZATION REQUESTS"
         subtitle="Looking for personalized rims that match your unique style?
                 Our expert design team is eager to turn your vision into reality. 
-                Send us an email at customization@silverlinerims.com, 
+                Send us an email at support@sliverlinerims.us, 
                 and we'll work closely with you to create your dream set 
                 of rims."
       />
@@ -46,7 +46,7 @@ const Contact = () => {
         title="TECHNICAL SUPPORT"
         subtitle="If you need technical assistance or have questions about rim 
                     compatibility with your vehicle, our skilled support team is 
-                    here to help. Email us at techsupport@silverlinerims.com, and 
+                    here to help. Email us at support@sliverlinerims.us, and 
                     we'll provide you with the guidance you need for a smooth and 
                     successful installation."
       />
@@ -84,8 +84,8 @@ const Contact = () => {
             </div>
             <div className="w-[329px] h-[175px] text-center lg:text-left xl:text-left">
               <span className="text-xs font-poppins text-secondary">
-                [Your Address Here] <br />
-                [City, State, Zip Code] <br /> <br />
+                6722 Commerce Street, <br />
+                Springfield , Virginia USA. <br /> <br />
                 Our showroom is open MON-FRI: 9AM - 5PM. Drop by, and our team
                 will be thrilled to provide you with a personalized tour and
                 answer any questions you may have.
@@ -103,13 +103,13 @@ const Contact = () => {
                 Stay updated on the latest Silverlinerims news, product
                 launches, and automotive trends by following us on social media:
                 <br /> <br />
-                Facebook: [Link] <br />
+                {/* Facebook: [Link] <br />
                 Instagram: [Link]
                 <br />
                 Twitter: [Link]
                 <br />
                 LinkedIn:[Link]
-                <br />
+                <br /> */}
               </span>
             </div>
           </div>
@@ -130,7 +130,7 @@ const Contact = () => {
                 rims, please email us at{" "}
                 <span className="text-tertiary">
                   {" "}
-                  partnerships@silverlinerims.com
+                  support@sliverlinerims.us
                 </span>
                 We're excited to explore new possibilities together!
               </span>

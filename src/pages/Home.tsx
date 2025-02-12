@@ -202,7 +202,7 @@ const Home = () => {
         {!isMobile && (
           <div className="hidden group-hover:block absolute top-[60%] -translate-x-0 translate-y-[-50%] left-3 text-2xl xl:rounded-none lg:rounded-none rounded-full  p-2 bg-black/20 text-white lg:text-primary xl:text-primary cursor-pointer lg:bg-transparent xl:bg-transparent lg:cursor-none xl:cursor-none">
             <BsChevronCompactLeft
-              onClick={prevSlideMobile}
+              onClick={prevSlide}
               size={30}
               className="sm:block md:block lg:hidden xl:hidden"
             />
@@ -212,7 +212,7 @@ const Home = () => {
         {!isMobile && (
           <div className="hidden group-hover:block absolute top-[60%] -translate-x-0 translate-y-[-50%] right-3 text-2xl rounded-full p-2 bg-black/20 text-white xl:rounded-none lg:rounded-none lg:text-primary xl:text-primary cursor-pointer lg:bg-transparent xl:bg-transparent lg:cursor-none xl:cursor-none">
             <BsChevronCompactRight
-              onClick={nextSlideMobile}
+              onClick={nextSlide}
               size={30}
               className="sm:block md:block lg:hidden xl:hidden"
             />

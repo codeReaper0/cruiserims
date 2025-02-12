@@ -94,7 +94,7 @@ const Footer = () => {
               color="white"
             />
             <span className="text-xs text-white font-bold font-poppins">
-              silverlinerims@gmail.com
+              support@sliverlinerims.us
             </span>
           </div>
           <div className="flex gap-x-3 ml-[-2.4rem]">
